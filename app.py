@@ -13,7 +13,7 @@ def vk():
     message = request.get_json()
 
     if message.get('type') == 'confirmation':
-        return 'c7fc81d0'
+        return 'da004b1c'
 
     if message.get('type') == 'message_new':
         api.message(
